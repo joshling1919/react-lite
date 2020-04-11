@@ -1,3 +1,5 @@
+import Didact from "../didact.js";
+
 /** @jsx Didact.createElement */
 const element = (
   <div id="foo">
@@ -7,5 +9,4 @@ const element = (
 );
 
 const container = document.getElementById("root");
-const element = Didact.createElement();
 Didact.render(element, container);

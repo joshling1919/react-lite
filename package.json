@@ -4,19 +4,17 @@
   "description": "React library from scratch",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "http-server dist/"
+    "build": "sh build.sh",
+    "start": "http-server"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
-    "@babel/plugin-transform-react-jsx": "^7.9.4",
-    "@babel/preset-env": "^7.9.5",
-    "babel-loader": "^8.1.0",
-    "http-server": "^0.12.1",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
+    "@babel/plugin-transform-react-jsx": "^7.9.4"
+  },
+  "dependencies": {
+    "http-server": "^0.12.1"
   }
 }

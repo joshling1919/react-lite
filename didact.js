@@ -43,4 +43,4 @@ const Didact = {
   render,
 };
 
-module.export = Didact;
+export default Didact;

@@ -1,12 +1,16 @@
 import Didact from "../diact";
 
-/** @jsx Didact.createElement */
-const element = (
-  <div id="foo">
-    <a>bar</a>
-    <b />
-  </div>
-);
+const rootDom = document.getElementById("root");
 
-const container = document.getElementById("root");
-Didact.render(element, container);
+function tick() {
+  const time = new Date().toLocaleTimeString();
+
+  /** @jsx Didact.createElement */
+  const element = <h1>{time}</h1>;
+
+  const container = document.getElementById("root");
+  Didact.render(element, container);
+}
+
+tick();
+setInterval(tick, 1000);

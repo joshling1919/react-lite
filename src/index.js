@@ -1,4 +1,4 @@
-import Didact from "../diact";
+import Didact from "../didact";
 
 const rootDom = document.getElementById("root");
 

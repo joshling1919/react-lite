@@ -31,7 +31,7 @@ The author of the guide calls the library `Didact`, so we would want our entry
 file at `src/index.js` to look something like:
 
 ```js
-import Didact from "../diact";
+import Didact from "../didact";
 
 /** @jsx Didact.createElement */
 const element = (
